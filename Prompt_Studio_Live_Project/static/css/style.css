@@ -1,0 +1,46 @@
+/* PromptStudio AI Stylesheet */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+}
+
+.tab-btn.active {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.glow-card {
+    transition: all 0.2s ease-in-out;
+}
+.glow-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px -6px rgba(99, 102, 241, 0.15);
+}
+
+/* Step Trace Connectors */
+.step-node {
+    position: relative;
+}
+.step-node:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 36px;
+    bottom: -12px;
+    width: 2px;
+    background-color: #334155;
+    z-index: 0;
+}
