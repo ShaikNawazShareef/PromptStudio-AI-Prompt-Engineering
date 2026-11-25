@@ -1,7 +1,7 @@
-# 🚀 PromptForge-AI
+# 🚀 PromptStudio-AI
 ### Craft Better Prompts. Engineer Smarter AI.
 
-PromptForge-AI is an interactive Prompt Engineering platform built using **Python and FastAPI**. It helps analyze, optimize, compare, and improve prompts using different prompt engineering techniques.
+PromptStudio-AI is an interactive Prompt Engineering platform built using **Python and FastAPI**. It helps analyze, optimize, compare, and improve prompts using different prompt engineering techniques.
 
 The platform demonstrates prompt fundamentals, Few-Shot Learning, Chain-of-Thought reasoning, Self-Consistency, and defensive prompting with security guardrails.
 
